@@ -1,0 +1,7 @@
+redirects:
+  - from: /index.html
+    to: /main
+  - from: /projects.html
+    to: /projects
+  - from: /hikes.html
+    to: /hikes
