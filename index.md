@@ -38,19 +38,19 @@ Examples of different rain features on glass:
 <table>
   <tr>
     <td>
-      <img src="https://images.pexels.com/photos/4114968/pexels-photo-4114968.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="ex1" style="height: 250px;">
+      <img src="https://images.pexels.com/photos/4114968/pexels-photo-4114968.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="ex1" style="height: 220px;">
     </td>
     <td>
-      <img src="https://images.pexels.com/photos/4420454/pexels-photo-4420454.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="ex2" style="height: 250px;">
+      <img src="https://images.pexels.com/photos/4420454/pexels-photo-4420454.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="ex2" style="height: 220px;">
     </td>
         <td>
-      <img src="https://images.pexels.com/photos/5106936/pexels-photo-5106936.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="ex3" style="height: 250px;">
+      <img src="https://images.pexels.com/photos/5106936/pexels-photo-5106936.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="ex3" style="height: 220px;">
     </td>
             <td>
-      <img src="https://images.pexels.com/photos/3054292/pexels-photo-3054292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="ex3" style="height: 250px;">
+      <img src="https://images.pexels.com/photos/3054292/pexels-photo-3054292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="ex3" style="height: 220px;">
     </td>
 <td>
-      <img src="https://images.pexels.com/photos/459277/pexels-photo-459277.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="ex3" style="height: 250px;">
+      <img src="https://images.pexels.com/photos/459277/pexels-photo-459277.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="ex3" style="height: 220px;">
     </td>
   </tr>
 </table>
