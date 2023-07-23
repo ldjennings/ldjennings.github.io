@@ -4,10 +4,10 @@ Worcester Polytechnic Institute, CS539, Prof. Kyumin Lee
 
 <table>
   <tr>
-    <td style="width: 100%;">
+    <td>
       <img src="https://tenor.com/view/looking-out-your-window-rain-raining-gif-12687159.gif" alt="Gif" style="height: 300px;">
     </td>
-    <td style="width: 100%;">
+    <td>
       <img src="https://c0.wallpaperflare.com/preview/890/584/45/traffic-rain-wet-windshield-droplet.jpg" alt="Image" style="height: 300px;">
     </td>
   </tr>
@@ -37,19 +37,19 @@ Our project aims to tackle one specific challenge: large raindrop blurs on glass
 Examples of different rain features on glass:
 <table>
   <tr>
-    <td style="width: 100%;">
+    <td>
       <img src="https://images.pexels.com/photos/4114968/pexels-photo-4114968.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="ex1" style="height: 250px;">
     </td>
-    <td style="width: 100%;">
+    <td>
       <img src="https://images.pexels.com/photos/4420454/pexels-photo-4420454.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="ex2" style="height: 250px;">
     </td>
-        <td style="width: 100%;">
+        <td>
       <img src="https://images.pexels.com/photos/5106936/pexels-photo-5106936.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="ex3" style="height: 250px;">
     </td>
-            <td style="width: 100%;">
+            <td>
       <img src="https://images.pexels.com/photos/3054292/pexels-photo-3054292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="ex3" style="height: 250px;">
     </td>
-<td style="width: 100%;">
+<td>
       <img src="https://images.pexels.com/photos/459277/pexels-photo-459277.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="ex3" style="height: 250px;">
     </td>
   </tr>
