@@ -60,10 +60,9 @@ The proposed solution that we implemented is a Convolutional Variational Autoenc
 + Preprocessing: Before feeding the data into the CVAE, a preprocessing step is applied to prepare the input images for further processing.
 
 + Encoder: The CVAE's encoder is responsible for mapping the input images into a latent space representation. It is comprised of:
-  + Four convolutional layers with 32, 64, 128, and 256 filters extract spatial information. The ReLU activation function is used in all layers to introduce non-linearity. Stride (2,2) is used in all layers to reduce the spatial dimensions of the feature maps (zero-padding is used).
+  + Two convolutional layers to extract spatial information. The ReLU activation function is used in all layers to introduce non-linearity. Stride (2,2) is used in all layers to reduce the spatial dimensions of the feature maps (zero-padding is used).
   + One flatten layer reshapes the spatial information into a 1D vector
-  + Two dense layers with 512 and 256 neurons and ReLU activation functions are used to reduce the dimensionality of the feature maps while retaining hierarchal features
-  + Two dense layers with 128 (latent dimension) neurons each and ReLU activation functions are used to compute the parameters of the latent space distribution
+  + Two dense layers with ReLU activation functions are used to reduce the dimensionality of the feature maps while retaining hierarchal features
   + One sampling layer performs reparameterization
 
 + Reparameterization Trick: Reparameterization is used to ensure stochasticity while enabling backpropagation during training. Random noise sampled from a standard Gaussian distribution is applied to the mean and log-variance vectors obtained from the encoder. This generates a sample from the latent variable distribution, allowing the model to learn and explore the latent space effectively.
@@ -71,7 +70,7 @@ The proposed solution that we implemented is a Convolutional Variational Autoenc
 + Decoder: The CVAE's decoder takes the sampled latent variable as input and aims to reconstruct the original image from this representation.
   + One dense layer inputs the sampled latent vector and projects it to a higher dimensional space
   + One reshape layer reshapes the 1D vector back into a 3D vector of size (30,45,256)
-  + Five transposed convolutional layers with various strides and ReLU activation functions upscale feature maps back to the original image size
+  + Three transposed convolutional layers with (2,2) strides and ReLU activation functions upscale feature maps back to the original image size
   + One output layer reintroduces the RGB color channels. Sigmoid activation function is used to make sure the output pixel values are in a range of (0,1), which represents the color intensity or saturation
 
 Our Github can be found [here](https://github.com/tabathaviso/deraining-tools). The following images show a progression of our model's image reconstruction behavior through fine-tuning, such as adding convolutional layers, increasing the latent space dimension, and adjusting the number of epochs. 
@@ -120,7 +119,7 @@ We used [this dataset](https://drive.google.com/drive/folders/1e7R76s6vwUJxILOcA
 ## Results
 The following show some of the ground truth, rainy, and reconstructed images. 
 
-Result 1:
+Training Result:
 <table>
   <tr>
     <td>
@@ -144,60 +143,40 @@ Result 1:
   </tr>
 </table>
 
-Result 2:
+Testing Result:
 <table>
   <tr>
     <td>
       <figure>
-        <img src="https://i.ibb.co/8DrfJPt/image0.png" alt="ex1" style="height: 240px;">
+        <img src="https://i.ibb.co/M7CL596/test3.png" alt="ex1" style="height: 240px;">
         <figcaption>Ground Truth</figcaption>
       </figure>
     </td>
     <td>
       <figure>
-        <img src="https://i.ibb.co/GvtWYsP/image6.png" alt="ex2" style="height: 240px;">
+        <img src="https://i.ibb.co/gddnZHb/test1.png" alt="ex2" style="height: 240px;">
         <figcaption>Synthetic Rain</figcaption>
       </figure>
     </td>
     <td>
       <figure>
-        <img src="https://i.ibb.co/GP8N0jK/image4.png" alt="ex3" style="height: 240px;">
+        <img src="https://i.ibb.co/WKBpncP/test2.png" alt="ex3" style="height: 240px;">
         <figcaption>Reconstructed</figcaption>
       </figure>
     </td>
   </tr>
 </table>
 
-Result 3:
-<table>
-  <tr>
-    <td>
-      <figure>
-        <img src="https://i.ibb.co/8DrfJPt/image0.png" alt="ex1" style="height: 240px;">
-        <figcaption>Ground Truth</figcaption>
-      </figure>
-    </td>
-    <td>
-      <figure>
-        <img src="https://i.ibb.co/GvtWYsP/image6.png" alt="ex2" style="height: 240px;">
-        <figcaption>Synthetic Rain</figcaption>
-      </figure>
-    </td>
-    <td>
-      <figure>
-        <img src="https://i.ibb.co/GP8N0jK/image4.png" alt="ex3" style="height: 240px;">
-        <figcaption>Reconstructed</figcaption>
-      </figure>
-    </td>
-  </tr>
-</table>
 
 ## Conclusions
-The model successfully inputs images, identifes significant hierarchal features of colored images, and reconstructs recognizable images without raindrop blurs. We are happy with our results! The model can still use further tuning to improve image reconstruction. Future work could include:
+The model performed somewhat successfully in training. It input images, identified significant hierarchal features of colored images, and reconstructed recognizable images without raindrop blurs. Unfortunately, when applying the model to testing data, the resulting images were not recognizable at all. The model needs significant further tuning and development to improve image reconstruction. Future work could include:
++ Different or ensemble approach:
+  + Isolating regions distored by rain and then only applying the VAE to those regions
+  + Using perceptual loss metric such as VGG loss or Generative Adversarial Metrics, which favor features that humans actually see rather than raw pixels, and should produce better results than methods that just compare raw pixel values like MSE.
 + Training the model with an improved dataset (more diverse image pairs, real rain instead of synthetic rain)
-+ Data augmentation and/or denoising prior to training  
++ Data augmentation and/or denoising prior to training, using more advanced methods to split the dataset and ensure the model isn't becoming overfitted  
 + Further hyperparameter tuning 
-+ Custom loss function 
+  
 
 
 
