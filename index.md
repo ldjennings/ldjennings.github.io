@@ -32,7 +32,7 @@ The task of single image deraining comes with some challenges: One is dealing wi
 
 Additionally, evaluating deraining algorithms can be challenging. The usual subjective evaluation methods, like visual inspection or human judgment, can be influenced by personal biases, as well as time-consuming. It would be helpful to have more objective and quantitative evaluation metrics that better align with human perception. By addressing these issues, deraining models can become more reliable tools for enhancing visibility and safety in challenging weather conditions, especially for applications like autonomous vehicles. 
 
-Our project aims to tackle one specific challenge: large raindrop blurs on glass, which cause significantly more image distortion than smaller raindrops or rain streaks.
+Our project aims to tackle low image visibility caused by raindrop blurs on glass, such as a car windshield or camera lense.
 
 Examples of different rain features on glass:
 <table>
