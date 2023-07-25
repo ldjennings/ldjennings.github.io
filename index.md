@@ -139,7 +139,6 @@ We used [this dataset](https://drive.google.com/drive/folders/1e7R76s6vwUJxILOcA
         <img src="https://i.ibb.co/M7CL596/test3.png" alt="ex1" style="height: 240px;">
     </td>
     <td>
-      <figure>
         <img src="https://i.ibb.co/gddnZHb/test1.png" alt="ex2" style="height: 240px;">
     </td>
     <td>
@@ -158,9 +157,6 @@ The model performed somewhat successfully in training. It input images, identifi
 + Data augmentation and/or denoising prior to training, using more advanced methods to split the dataset and ensure the model isn't becoming overfitted  
 + Further hyperparameter tuning 
   
-
-
-
 
 
 ## References
