@@ -91,16 +91,16 @@ Our Github can be found [here](https://github.com/tabathaviso/deraining-tools). 
 </table>
 
 
-## Training Dataset
-We tried using several datasets while training our model, but ulimately used images with synthetic raindrops created using [this artificial raindrops generation algorithm](https://github.com/Evocargo/RaindropsOnWindshield) (not our work). The rain-free, ground truth images used were a dataset of Google Street View images (from the [UCF Center for Research in Computer Vision](https://www.crcv.ucf.edu/data/GMCP_Geolocalization/)). Below are a couple examples of the original images and their synthetic rainy pairs.
+## Dataset
+We used [this dataset](https://drive.google.com/drive/folders/1e7R76s6vwUJxILOcAsthgDLPSnOrQ49K) of 861 rain-free and rain image pairs for training. This dataset was acquired from [this Github project](https://github.com/rui1996/DeRaindrop) that developed a different deraining method. Below are examples of the image pairs:
 
 <table>
   <tr>
     <td>
-      <img src="https://i.ibb.co/w6G6KCz/003300-0.jpg" alt="ex1" style="height: 320px;">
+      <img src="https://i.ibb.co/qrTTbnf/5-clean.png" alt="ex1" style="height: 320px;">
     </td>
     <td>
-      <img src="https://i.ibb.co/0Xv8t2J/003300-0-rain.png" alt="ex2" style="height: 320px;">
+      <img src="https://i.ibb.co/qN89C41/5-rain.png" alt="ex2" style="height: 320px;">
     </td>
   </tr>
 </table>
@@ -108,10 +108,10 @@ We tried using several datasets while training our model, but ulimately used ima
 <table>
   <tr>
     <td>
-      <img src="https://i.ibb.co/MhC7d6W/003365-4.jpg" alt="ex3" style="height: 320px;">
+      <img src="https://i.ibb.co/N3SPbZD/24-clean.png" alt="ex3" style="height: 320px;">
     </td>
         <td>
-      <img src="https://i.ibb.co/yQ2MtJt/003365-4-rain.jpg" alt="ex4" style="height: 320px;">
+      <img src="https://i.ibb.co/M9rzF1k/24-rain.png" alt="ex4" style="height: 320px;">
     </td>
   </tr>
 </table>
