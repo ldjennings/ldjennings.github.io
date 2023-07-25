@@ -120,22 +120,13 @@ We used [this dataset](https://drive.google.com/drive/folders/1e7R76s6vwUJxILOcA
 <table>
   <tr>
     <td>
-      <figure>
         <img src="https://i.ibb.co/PGQ0gsV/0-clean.png" alt="ex1" style="height: 240px;">
-        <figcaption>Ground Truth</figcaption>
-      </figure>
     </td>
     <td>
-      <figure>
         <img src="https://i.ibb.co/TvzvW9V/0-rain.png" alt="ex2" style="height: 240px;">
-        <figcaption>Synthetic Rain</figcaption>
-      </figure>
     </td>
     <td>
-      <figure>
         <img src="https://i.ibb.co/GP8N0jK/image4.png" alt="ex3" style="height: 240px;">
-        <figcaption>Reconstructed</figcaption>
-      </figure>
     </td>
   </tr>
 </table>
@@ -144,22 +135,14 @@ We used [this dataset](https://drive.google.com/drive/folders/1e7R76s6vwUJxILOcA
 <table>
   <tr>
     <td>
-      <figure>
         <img src="https://i.ibb.co/M7CL596/test3.png" alt="ex1" style="height: 240px;">
-        <figcaption>Ground Truth</figcaption>
-      </figure>
     </td>
     <td>
       <figure>
         <img src="https://i.ibb.co/gddnZHb/test1.png" alt="ex2" style="height: 240px;">
-        <figcaption>Synthetic Rain</figcaption>
-      </figure>
     </td>
     <td>
-      <figure>
         <img src="https://i.ibb.co/WKBpncP/test2.png" alt="ex3" style="height: 240px;">
-        <figcaption>Reconstructed</figcaption>
-      </figure>
     </td>
   </tr>
 </table>
