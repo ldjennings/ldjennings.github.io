@@ -116,21 +116,18 @@ We used [this dataset](https://drive.google.com/drive/folders/1e7R76s6vwUJxILOcA
 </table>
 
 
-## Results
-The following show some of the ground truth, rainy, and reconstructed images. 
-
-Training Result:
+## Example of Training Result
 <table>
   <tr>
     <td>
       <figure>
-        <img src="https://i.ibb.co/8DrfJPt/image0.png" alt="ex1" style="height: 240px;">
+        <img src="https://i.ibb.co/PGQ0gsV/0-clean.png" alt="ex1" style="height: 240px;">
         <figcaption>Ground Truth</figcaption>
       </figure>
     </td>
     <td>
       <figure>
-        <img src="https://i.ibb.co/GvtWYsP/image6.png" alt="ex2" style="height: 240px;">
+        <img src="https://i.ibb.co/TvzvW9V/0-rain.png" alt="ex2" style="height: 240px;">
         <figcaption>Synthetic Rain</figcaption>
       </figure>
     </td>
@@ -143,7 +140,7 @@ Training Result:
   </tr>
 </table>
 
-Testing Result:
+## Example of Testing Result
 <table>
   <tr>
     <td>
