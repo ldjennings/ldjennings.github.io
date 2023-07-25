@@ -59,24 +59,70 @@ Examples of different rain features on glass:
 The proposed solution that we implemented is a Convolutional Variational Autoencoder. The architecture is as follows:
 + Preprocessing: Before feeding the data into the CVAE, a preprocessing step is applied to prepare the input images for further processing.
 
-+ Encoder: The CVAE's encoder is responsible for mapping the input images into a latent space representation. It is comprised of two convolutional layers with ReLU activation functions, using a (2,2) stride and zero-padding to extract meaningful features from the input images. These convolutional layers are followed by a flattening layer to convert the feature maps into a 1D vector. The output of the encoder consists of two vectors representing the mean and log-variance of the latent variable, which will be used to generate samples.
++ Encoder: The CVAE's encoder is responsible for mapping the input images into a latent space representation. It is comprised of:
+  + Four convolutional layers with 32, 64, 128, and 256 filters extract spatial information. The ReLU activation function is used in all layers to introduce non-linearity. Stride (2,2) is used in all layers to reduce the spatial dimensions of the feature maps (zero-padding is used).
+  + One flatten layer reshapes the spatial information into a 1D vector
+  + Two dense layers with 512 and 256 neurons and ReLU activation functions are used to reduce the dimensionality of the feature maps while retaining hierarchal features
+  + Two dense layers with 128 (latent dimension) neurons each and ReLU activation functions are used to compute the parameters of the latent space distribution
+  + One sampling layer performs reparameterization
 
 + Reparameterization Trick: Reparameterization is used to ensure stochasticity while enabling backpropagation during training. Random noise sampled from a standard Gaussian distribution is applied to the mean and log-variance vectors obtained from the encoder. This generates a sample from the latent variable distribution, allowing the model to learn and explore the latent space effectively.
 
-+ Decoder: The CVAE's decoder takes the sampled latent variable as input and aims to reconstruct the original image from this representation. It consists of three de-convolutional layers with ReLU activation functions, using a (2,2) stride and zero-padding to upscale the input representation. The decoder's output is the reconstructed image, which should ideally match the original clean input image.
++ Decoder: The CVAE's decoder takes the sampled latent variable as input and aims to reconstruct the original image from this representation.
+  + One dense layer inputs the sampled latent vector and projects it to a higher dimensional space
+  + One reshape layer reshapes the 1D vector back into a 3D vector of size (30,45,256)
+  + Five transposed convolutional layers with various strides and ReLU activation functions upscale feature maps back to the original image size
+  + One output layer reintroduces the RGB color channels. Sigmoid activation function is used to make sure the output pixel values are in a range of (0,1), which represents the color intensity or saturation
 
-Our Github can be found [here](https://github.com/tabathaviso/deraining-tools).
+Our Github can be found [here](https://github.com/tabathaviso/deraining-tools). The following images show a progression of our model's image reconstruction behavior through fine-tuning, such as adding convolutional layers, increasing the latent space dimension, and adjusting the number of epochs. 
+
+<table>
+  <tr>
+    <td>
+      <img src="https://i.ibb.co/8DrfJPt/image0.png" alt="ex1" style="height: 240px;">
+    </td>
+    <td>
+      <img src="https://i.ibb.co/GvtWYsP/image6.png" alt="ex2" style="height: 240px;">
+    </td>
+    <td>
+      <img src="https://i.ibb.co/GP8N0jK/image4.png" alt="ex3" style="height: 240px;">
+    </td>
+  </tr>
+</table>
+
 
 ## Training Dataset
+We tried using several datasets while training out model, but ulimately used images with synthetic raindrops created using [this artificial raindrops generation algorithm](https://github.com/Evocargo/RaindropsOnWindshield) (not our work). The rain-free, ground truth images used were a dataset of Google Street View images (from the [UCF Center for Research in Computer Vision](https://www.crcv.ucf.edu/data/GMCP_Geolocalization/)). Below are a couple examples of the original images and their synthetic rainy pairs.
+
+<table>
+  <tr>
+    <td>
+      <img src="https://i.ibb.co/8DrfJPt/image0.png" alt="ex1" style="height: 200px;">
+    </td>
+    <td>
+      <img src="https://i.ibb.co/GvtWYsP/image6.png" alt="ex2" style="height: 200px;">
+    </td>
+    <td>
+      <img src="https://i.ibb.co/GP8N0jK/image4.png" alt="ex3" style="height: 200px;">
+    </td>
+        <td>
+      <img src="https://i.ibb.co/GP8N0jK/image4.png" alt="ex4" style="height: 200px;">
+    </td>
+  </tr>
+</table>
 
 
-Our dataset can be found here (need to add link).
+Our complete dataset can be found here (need to add link).
 
 ## Results
 
 
 
 ## Conclusions
+text text text text 
+
+
+
 
 ## References
 + Wang, T., Yang, X., Xu, K., Chen, S., Zhang, Q., & Lau, R. “Spatial Attentive Single-Image Deraining with a High Quality Real Rain Dataset”, CVPR 2019.
@@ -84,7 +130,7 @@ Our dataset can be found here (need to add link).
 + Li, S., Araujo, I. “Single Image Deraining: A Comprehensive Benchmark Analysis”, CVPR 2019.
 + Zhao, Z., Yanyan, W., Haijun, Z., Yi, Y., Shuicheng, Y., & Wang, M. "Data-Driven Single Image Deraining: A Comprehensive Review and New Perspectives," Pattern Recognition 2023.
 + [Derain Zoo](https://github.com/nnUyi/DerainZoo): additional Github collection of deraining methods and datasets
-+ [Raindrops on Windshield](https://github.com/EvoCargo/RaindropsOnWindshield): dataset of synthetic rain image pairs on car windshields, specific to autonomous vehicle applications. as well as a synthetic raindrop generator program
++ [Raindrops on Windshield](https://github.com/EvoCargo/RaindropsOnWindshield): dataset of synthetic rain image pairs on car windshields, specific to autonomous vehicle applications
 + [UCF Center for Research in Computer Vision](https://www.crcv.ucf.edu/data/GMCP_Geolocalization/): dataset of images captured by Google Street View that were piped through the raindrop generator
-  
+
 (Please note: images that are not our own are hyperlinked to their original sources, all open-source.)
