@@ -116,7 +116,6 @@ We used [this dataset](https://drive.google.com/drive/folders/1e7R76s6vwUJxILOcA
   </tr>
 </table>
 
-Our complete dataset can be found here (need to add link).
 
 ## Results
 The following show some of the ground truth, rainy, and reconstructed images. 
@@ -196,7 +195,10 @@ Result 3:
 ## Conclusions
 The model successfully inputs images, identifes significant hierarchal features of colored images, and reconstructs recognizable images without raindrop blurs. We are happy with our results! The model can still use further tuning to improve image reconstruction. Future work could include:
 + Training the model with an improved dataset (more diverse image pairs, real rain instead of synthetic rain)
-+ 
++ Data augmentation and/or denoising prior to training  
++ Further hyperparameter tuning 
++ Custom loss function 
+
 
 
 
