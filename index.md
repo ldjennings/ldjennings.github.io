@@ -92,7 +92,7 @@ Our Github can be found [here](https://github.com/tabathaviso/deraining-tools). 
 
 
 ## Training Dataset
-We tried using several datasets while training out model, but ulimately used images with synthetic raindrops created using [this artificial raindrops generation algorithm](https://github.com/Evocargo/RaindropsOnWindshield) (not our work). The rain-free, ground truth images used were a dataset of Google Street View images (from the [UCF Center for Research in Computer Vision](https://www.crcv.ucf.edu/data/GMCP_Geolocalization/)). Below are a couple examples of the original images and their synthetic rainy pairs.
+We tried using several datasets while training our model, but ulimately used images with synthetic raindrops created using [this artificial raindrops generation algorithm](https://github.com/Evocargo/RaindropsOnWindshield) (not our work). The rain-free, ground truth images used were a dataset of Google Street View images (from the [UCF Center for Research in Computer Vision](https://www.crcv.ucf.edu/data/GMCP_Geolocalization/)). Below are a couple examples of the original images and their synthetic rainy pairs.
 
 <table>
   <tr>
@@ -105,7 +105,6 @@ We tried using several datasets while training out model, but ulimately used ima
   </tr>
 </table>
 
-
 <table>
   <tr>
     <td>
@@ -117,15 +116,60 @@ We tried using several datasets while training out model, but ulimately used ima
   </tr>
 </table>
 
-
 Our complete dataset can be found here (need to add link).
 
 ## Results
-The following show some of 
+The following show some of the ground truth, rainy, and reconstructed images. 
 
+Result 1:
+<table>
+  <tr>
+    <td>
+      <img src="https://i.ibb.co/8DrfJPt/image0.png" alt="ex1" style="height: 240px;">
+    </td>
+    <td>
+      <img src="https://i.ibb.co/GvtWYsP/image6.png" alt="ex2" style="height: 240px;">
+    </td>
+    <td>
+      <img src="https://i.ibb.co/GP8N0jK/image4.png" alt="ex3" style="height: 240px;">
+    </td>
+  </tr>
+</table>
+
+Result 2:
+<table>
+  <tr>
+    <td>
+      <img src="https://i.ibb.co/8DrfJPt/image0.png" alt="ex1" style="height: 240px;">
+    </td>
+    <td>
+      <img src="https://i.ibb.co/GvtWYsP/image6.png" alt="ex2" style="height: 240px;">
+    </td>
+    <td>
+      <img src="https://i.ibb.co/GP8N0jK/image4.png" alt="ex3" style="height: 240px;">
+    </td>
+  </tr>
+</table>
+
+Result 3:
+<table>
+  <tr>
+    <td>
+      <img src="https://i.ibb.co/8DrfJPt/image0.png" alt="ex1" style="height: 240px;">
+    </td>
+    <td>
+      <img src="https://i.ibb.co/GvtWYsP/image6.png" alt="ex2" style="height: 240px;">
+    </td>
+    <td>
+      <img src="https://i.ibb.co/GP8N0jK/image4.png" alt="ex3" style="height: 240px;">
+    </td>
+  </tr>
+</table>
 
 ## Conclusions
-text text text text 
+The model successfully inputs images, identifes significant hierarchal features of colored images, and reconstructs recognizable images without raindrop blurs. We are happy with our results! The model can still use further tuning to improve image reconstruction. Future work could include:
++ Training the model with an improved dataset (more diverse image pairs, real rain instead of synthetic rain)
++ 
 
 
 
