@@ -125,13 +125,22 @@ Result 1:
 <table>
   <tr>
     <td>
-      <img src="https://i.ibb.co/8DrfJPt/image0.png" alt="ex1" style="height: 240px;">
+      <figure>
+        <img src="https://i.ibb.co/8DrfJPt/image0.png" alt="ex1" style="height: 240px;">
+        <figcaption>Ground Truth</figcaption>
+      </figure>
     </td>
     <td>
-      <img src="https://i.ibb.co/GvtWYsP/image6.png" alt="ex2" style="height: 240px;">
+      <figure>
+        <img src="https://i.ibb.co/GvtWYsP/image6.png" alt="ex2" style="height: 240px;">
+        <figcaption>Synthetic Rain</figcaption>
+      </figure>
     </td>
     <td>
-      <img src="https://i.ibb.co/GP8N0jK/image4.png" alt="ex3" style="height: 240px;">
+      <figure>
+        <img src="https://i.ibb.co/GP8N0jK/image4.png" alt="ex3" style="height: 240px;">
+        <figcaption>Reconstructed</figcaption>
+      </figure>
     </td>
   </tr>
 </table>
@@ -140,13 +149,22 @@ Result 2:
 <table>
   <tr>
     <td>
-      <img src="https://i.ibb.co/8DrfJPt/image0.png" alt="ex1" style="height: 240px;">
+      <figure>
+        <img src="https://i.ibb.co/8DrfJPt/image0.png" alt="ex1" style="height: 240px;">
+        <figcaption>Ground Truth</figcaption>
+      </figure>
     </td>
     <td>
-      <img src="https://i.ibb.co/GvtWYsP/image6.png" alt="ex2" style="height: 240px;">
+      <figure>
+        <img src="https://i.ibb.co/GvtWYsP/image6.png" alt="ex2" style="height: 240px;">
+        <figcaption>Synthetic Rain</figcaption>
+      </figure>
     </td>
     <td>
-      <img src="https://i.ibb.co/GP8N0jK/image4.png" alt="ex3" style="height: 240px;">
+      <figure>
+        <img src="https://i.ibb.co/GP8N0jK/image4.png" alt="ex3" style="height: 240px;">
+        <figcaption>Reconstructed</figcaption>
+      </figure>
     </td>
   </tr>
 </table>
@@ -155,13 +173,22 @@ Result 3:
 <table>
   <tr>
     <td>
-      <img src="https://i.ibb.co/8DrfJPt/image0.png" alt="ex1" style="height: 240px;">
+      <figure>
+        <img src="https://i.ibb.co/8DrfJPt/image0.png" alt="ex1" style="height: 240px;">
+        <figcaption>Ground Truth</figcaption>
+      </figure>
     </td>
     <td>
-      <img src="https://i.ibb.co/GvtWYsP/image6.png" alt="ex2" style="height: 240px;">
+      <figure>
+        <img src="https://i.ibb.co/GvtWYsP/image6.png" alt="ex2" style="height: 240px;">
+        <figcaption>Synthetic Rain</figcaption>
+      </figure>
     </td>
     <td>
-      <img src="https://i.ibb.co/GP8N0jK/image4.png" alt="ex3" style="height: 240px;">
+      <figure>
+        <img src="https://i.ibb.co/GP8N0jK/image4.png" alt="ex3" style="height: 240px;">
+        <figcaption>Reconstructed</figcaption>
+      </figure>
     </td>
   </tr>
 </table>
