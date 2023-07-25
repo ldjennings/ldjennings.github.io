@@ -97,16 +97,22 @@ We tried using several datasets while training out model, but ulimately used ima
 <table>
   <tr>
     <td>
-      <img src="https://i.ibb.co/w6G6KCz/003300-0.jpg" alt="ex1" style="height: 200px;">
+      <img src="https://i.ibb.co/w6G6KCz/003300-0.jpg" alt="ex1" style="height: 320px;">
     </td>
     <td>
-      <img src="https://i.ibb.co/0Xv8t2J/003300-0-rain.png" alt="ex2" style="height: 200px;">
+      <img src="https://i.ibb.co/0Xv8t2J/003300-0-rain.png" alt="ex2" style="height: 320px;">
     </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
     <td>
-      <img src="https://i.ibb.co/MhC7d6W/003365-4.jpg" alt="ex3" style="height: 200px;">
+      <img src="https://i.ibb.co/MhC7d6W/003365-4.jpg" alt="ex3" style="height: 320px;">
     </td>
         <td>
-      <img src="https://i.ibb.co/yQ2MtJt/003365-4-rain.jpg" alt="ex4" style="height: 200px;">
+      <img src="https://i.ibb.co/yQ2MtJt/003365-4-rain.jpg" alt="ex4" style="height: 320px;">
     </td>
   </tr>
 </table>
@@ -115,7 +121,7 @@ We tried using several datasets while training out model, but ulimately used ima
 Our complete dataset can be found here (need to add link).
 
 ## Results
-
+The following show some of 
 
 
 ## Conclusions
