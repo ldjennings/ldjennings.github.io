@@ -1,4 +1,7 @@
-## Pixel Precipitation: Single Image Deraining with CVAE
+---
+title: Pixel Precipitation: Single Image Deraining with CVAE
+---
+
 ### Machine Learning Project by Liam Jennings, Tabatha Viso, & Nikesh Walling
 Worcester Polytechnic Institute, CS539, Prof. Kyumin Lee 
 
