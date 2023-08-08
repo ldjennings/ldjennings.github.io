@@ -1,0 +1,24 @@
+.photo-grid {
+  display: grid;
+  gap: 1rem;
+
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-auto-rows: 240px;
+}
+
+/* Medium screens */
+@media screen and (min-width: 600px) {
+  .card-tall {
+    grid-row: span 2 / auto;
+  }
+
+  .card-wide {
+    grid-column: span 2 / auto;
+  }
+}
+
+ /* Target the anchor tags within the .basic-grid class */
+ .photo-grid a {
+  text-decoration: none;  /* Removes the underline */
+  color: inherit;         /* Inherits the color from the parent element */
+}
