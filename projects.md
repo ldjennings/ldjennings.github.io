@@ -1,4 +1,5 @@
 <style>
+    @import url('./css/base.css');
     @import url('./css/photo-grid.css');
 </style>
 
