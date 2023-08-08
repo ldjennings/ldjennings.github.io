@@ -1,7 +1,3 @@
-<style>
-    @import url('./css/base.css');
-    @import url('./css/photo-grid.css');
-</style>
 
 <div class="photo-grid">
   <a href="https://www.google.com"><div
