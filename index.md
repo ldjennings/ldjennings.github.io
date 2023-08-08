@@ -9,6 +9,8 @@ excerpt:
 
 If you're here for the Machine Learning Project my group did for CS539 at WPI, click [here](https://ldjennings.github.io/CS539FinalProject). My group used this url before I decided to make it into my website. I'll get around to updating Professor Kyumin Lee at some point. 
 
+commit .1
+
 <!-- I'm Liam Jennings, welcome to my portfolio site. I'm a guy who knows some stuff about computer science and robotics, and likes use that knowy stuff to make cool things. Please pay me to do this.
 
 

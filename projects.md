@@ -1,3 +1,6 @@
+---
+layout: default
+---
 
 <div class="photo-grid">
   <a href="https://www.google.com"><div
