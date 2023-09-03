@@ -1,3 +1,10 @@
+---
+title: false
+styles: true
+---
+
+
+@import "alembic";
 .card {
     display: flex;
     flex-direction: column;
@@ -24,7 +31,7 @@
  }
 
 .photo-grid {
-  display: grid !important;
+  display: grid;
   gap: 1rem;
 
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
