@@ -1,10 +1,10 @@
 ---
-title: false
-styles: true
 ---
 
 
-@import "alembic";
+
+@import "{{ site.theme }}";
+
 .card {
     display: flex;
     flex-direction: column;
