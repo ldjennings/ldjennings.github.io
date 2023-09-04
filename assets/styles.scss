@@ -1,11 +1,6 @@
 ---
 ---
 
-
-
-@import "{{ site.theme }}";
-
-
 .card {
     display: flex;
     flex-direction: column;
@@ -55,3 +50,5 @@
   text-decoration: none;  /* Removes the underline */
   color: inherit;         /* Inherits the color from the parent element */
 }
+
+@import "{{ site.theme }}";
