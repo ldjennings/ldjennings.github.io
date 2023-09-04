@@ -23,8 +23,8 @@ plugins:
 # Site settings
 url: 'https://ldjennings.github.io/'
 baseurl: ''
-title: 'Liam Jennings'
-description: 'Liam Jenning's portfolio website'
+title: 'My website'
+description: 'This is my new website'
 permalink: pretty
 logo: "/assets/logo.jpg"
 
