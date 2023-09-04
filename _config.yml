@@ -24,7 +24,7 @@ plugins:
 url: 'https://ldjennings.github.io/'
 baseurl: ''
 title: 'My websites'
-description: 'This is my new website'
+description: 'This is my portfolio website'
 permalink: pretty
 logo: "/assets/logo.jpg"
 
