@@ -1,9 +1,3 @@
-# Starter kit for [Alembic](https://alembic.darn.es/)
+This the github repo for my portfolio website. It is based on the [alembic](https://alembic.darn.es/) github theme. Additionally, I used code from fireship.io's [css grid](https://fireship.io/lessons/three-responsive-css-grid-layouts/) article to create the gallery for my projects.
 
-This is a very simple starting point if you wish to use Alembic [as a Jekyll theme gem](https://alembic.darn.es/#as-a-jekyll-theme) or as a [GitHub Pages remote theme](https://github.com/daviddarnes/alembic-kit/tree/remote-theme) (see `remote-theme` branch).
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-kit)
-
-or
-
-**[Download the GitHub Pages kit](https://github.com/daviddarnes/alembic-kit/archive/remote-theme.zip)**
+The reason there are so many commits is that I couldn't manage to get jekyll running locally on my ubuntu machine, so I had to make a new commit every time I wanted to see changes. 

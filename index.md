@@ -16,6 +16,6 @@ I love to read in my spare time, and hate myself while hiking. Cooking is fun to
 
 I recently interned at STR, where I worked on a cyber security project involving .NET programs. 
 
-My primary goal is to build cool robots with the intelligence and dexterity required to solve real world problems. I'd also really like it if these robots were in space.
+My primary goal is to build cool robots with the intelligence and dexterity required to solve real world problems. I'd really like it if these robots were in space.
 
 
