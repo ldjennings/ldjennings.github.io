@@ -16,4 +16,4 @@ To control the robot, we used a deep Q learning algorithm.
 You can see a 16x sped up version of training below:
 {% include video.html id="sYeYrgIsD40" title="RBE 2002 demo" %}
 
-If you want to learn more, here is the [report](/assets/documents/GP4%20Report.pdf) and [codebase](/assets/code/CS4341%20-%20Team%203%20GP4.zip) for the project
+If you want to learn more, here are the [report](/assets/documents/GP4%20Report.pdf) and [codebase](/assets/code/CS4341%20-%20Team%203%20GP4.zip) for the project
