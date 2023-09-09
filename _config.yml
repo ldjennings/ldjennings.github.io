@@ -39,7 +39,7 @@ navigation_header:
 # - title: About
 #   url: /about/
 - title: Projects
-  url: /##Projects Gallery
+  url: /#projects-gallery
 - title: Blog
   url: /projects/
 
