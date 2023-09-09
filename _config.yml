@@ -26,7 +26,7 @@ baseurl: ''
 title: "Liam Jennings"
 description: 'This is my portfolio website'
 permalink: pretty
-logo: "/assets/logo.jpg"
+logo: "/assets/images/logo.jpg"
 
 # Pagination
 paginate: 5
