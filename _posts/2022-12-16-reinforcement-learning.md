@@ -2,7 +2,7 @@
 title: Reinforcment Learning in ROS
 categories:
 - Robotics
-feature_image: "https://picsum.photos/2560/600?image=872"
+# feature_image: "https://picsum.photos/2560/600?image=872"
 ---
 
 For the final project of my *Articial Intelligence* class, we were asked to pick a topic of our choice related to the subject based on our field and interest. 
