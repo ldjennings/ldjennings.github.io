@@ -21,6 +21,6 @@ My primary goal is to build cool robots with the intelligence and dexterity requ
 
 
 
-## Projects Gallery
+## Resume
 
 asfasdfasdfasdfasdfasdfa
