@@ -14,3 +14,5 @@ We e ran into a few problems, including an amusing one: without effort limits on
 
 But eventually we managed to get a working controller:
 {% include video.html id="ET-57yDd4to" title="RBE 500 demo" %}
+
+Take a look at our codebase [here](/assets/code/RBE500_final-src.zip)!
