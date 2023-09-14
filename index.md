@@ -22,5 +22,5 @@ My primary goal is to build cool robots with the intelligence and dexterity requ
 
 
 ## Resume
-{% include figure.html image='/assets/images/resume.jpg' %}
+{% include figure.html image='/assets/images/resume.png' %}
 Dowload my resume [here](/assets/documents/Liam_Jennings_Resume.pdf).
