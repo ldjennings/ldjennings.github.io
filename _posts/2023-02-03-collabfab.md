@@ -1,5 +1,5 @@
 ---
-title: Intamsys Funmat Pro Refurbishing
+title: INTAMSYS FUNMAT Pro Refurbishment
 categories:
 - Robotics
 # feature_image: "https://picsum.photos/2560/600?image=872"
