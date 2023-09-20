@@ -24,7 +24,7 @@ If you're curious about our raw code, you're welcome to explore our codebase:
 
 <!-- Take a look [here](/assets/code/final-project-team-12-final.zip)! -->
 
-{% include button.html text="Explore our codebase" link="/assets/code/final-project-team-12-final.zip" icon="file" %}
+{% include button.html text="Explore our codebase" link="/assets/code/final-project-team-12-final.zip" %}
 ## What I Learned
 
 This project was an enriching learning experience that extended beyond just robotics. We navigated challenges tied to resource optimization and networking, gaining a deeper appreciation for the collaborative spirit of problem-solving. I learned numerous ways to interpret, combine, and apply sensors to achieve various goals. It also provided a practical scenario where we learned to balance ambition with feasibility, steering our project to a successful completion.
