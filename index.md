@@ -14,13 +14,11 @@ I've always enjoyed problem solving, and software engineering was a natural exte
 
 I love to read in my spare time, and hike with friends. Cooking is fun too!
 
-I recently interned at STR, where I worked on a cyber security project involving .NET programs. 
+I recently interned at STR, where I worked on a cyber security project involving .NET programs.
 
 My primary goal is to build cool robots with the intelligence and dexterity required to solve real world problems. I'd really like it if these robots were in space.
 
-
-
-
 ## Resume
+
 {% include figure.html image='/assets/images/resume.png' %}
 {% include button.html text="Download my resume" link="/assets/documents/resume.pdf" %}
