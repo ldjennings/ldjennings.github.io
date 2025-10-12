@@ -21,7 +21,6 @@ You can see the robot's training phase in this sped-up video:
 
 {% include video.html id="sYeYrgIsD40" title="RBE 2002 demo" %}
 
-
 If you'd like to understand more about our project, feel free to go through our report and codebase.
 
 {% include button.html text="Report" link="/assets/documents/GP4%20Report.pdf" %}

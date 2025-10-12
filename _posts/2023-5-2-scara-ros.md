@@ -23,6 +23,7 @@ Addressing this, we incorporated effort limits to the joints to curb the unrestr
 For a deeper insight into the project, you are welcome to take a look at our codebase.
 
 {% include button.html text="Explore our codebase" link="/assets/code/RBE500_final-src.zip" %}
+
 ## What I Learned
 
 This project provided a hands-on experience in working with complex robotic systems, and it exposed us to the nuances involved in modeling a robotic arm in a simulation environment. Through the iterative process of encountering problems and finding solutions, we were able to gain a practical understanding of the theories taught in the class.
