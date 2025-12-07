@@ -31,6 +31,5 @@ in space.
 
 ## Resume
 
-{% include figure.html image="/assets/images/{{ site.data.resume.svg }}" %} {%
-include button.html text="Download my resume" link="/assets/documents/{{
-site.data.resume.pdf }}" %}
+{% include figure.html image=site.data.resume.svg %} {% include button.html
+text="Download my resume" link=site.data.resume.pdf %}
