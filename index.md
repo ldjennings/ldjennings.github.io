@@ -27,8 +27,6 @@ My primary goal is to build cool robots with the intelligence and dexterity
 required to solve real world problems. I'd really like it if these robots were
 in space.
 
-{{ site.data.resume.svg }} {{ site.data.resume.pdf }}
-
 ## Resume
 
 {% include figure.html image=site.data.resume.svg %} {% include button.html
