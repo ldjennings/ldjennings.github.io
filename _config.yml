@@ -42,8 +42,6 @@ navigation_header:
 #   url: /#resume
 - title: Projects
   url: /projects/
-- title: Blog
-  url: /blog/
 
 
 # Footer nav

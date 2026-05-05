@@ -2,30 +2,20 @@
 title: Hello
 feature_text: |
   ## Liam Jennings
-  Computer Science and Robotics guy
+  Software & Robotics Engineer
 feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt:
 ---
 
-I'm Liam Jennings, welcome to my portfolio site. I'm a software engineer student
-from Seattle. I've graduated with my bachelors degree in Computer Science from
-Worcetser Polytechnic Institute, and I'm working on my Master's in Robotics
-Engineering at the same school.
+I'm a software and robotics engineer based in Seattle, currently pursuing my Master's in Robotics Engineering at Worcester Polytechnic Institute. I completed my B.S. in Computer Science there in 2025.
 
-I've always enjoyed problem solving, and software engineering was a natural
-extension to that. After trying it, I started learning robotics so I could solve
-physical problems. Since then, I've delved into robotic controls and machine
-learning through classes at my college. I also dabble a bit with cyber security.
+My work focuses on embedded systems, real-time controls, and hardware validation. I have hands-on experience with STM32 firmware development, CAN bus communication, and hardware-in-the-loop testing. Most recently, I worked as a Hardware Test Engineer at [Symbotic](https://www.symbotic.com/), where I designed test fixtures and built automated tooling for embedded system validation.
 
-I love to read in my spare time, and hike with friends. Cooking is fun too!
+I'm motivated by the pride of making something well. Engineering is an art to me. I constantly see systems that were never quite finished, awkward to use, and painful to maintain. I want to do better. Making the world around me a little smoother, a little more reliable, a little more considerate of the people who have to live with it—that makes me genuinely happy.
 
-I'm currently working at a co-op at [Symbotic](https://www.symbotic.com/) for
-the fall of 2025. I'm a Hardware Test Engineer for some of their newest
-products.
+That said, craftsmanship takes time, and most problems don't need it. Knowing where it should be applied is usually more important than the craftsmanship itself. Getting something real and tangible across the finish line is equally motivating: there's satisfaction in seeing something ship, and something lost when it doesn't.
 
-My primary goal is to build cool robots with the intelligence and dexterity
-required to solve real world problems. I'd really like it if these robots were
-in space.
+I've learned to balance the two.
 
 ## Resume
 
