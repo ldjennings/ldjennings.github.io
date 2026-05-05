@@ -8,7 +8,7 @@ categories:
 
 During our time in the "Unified Robotics: Sensing" course, we worked closely with Pololu ROMI robots, featuring Atmega32U4 embedded control boards, to delve deep into the field of robotic sensing. The curriculum introduced us to a range of sensing techniques through hands-on labs, incorporating elements such as rangefinders, encoder ticks for kinematics, pitch detection through complementary filters, and computer vision enabled by an OpenMV camera.
 
-{% include figure.html image="/assets/images/romi2.jpg" caption="One of our romis" position="right" width="300" height="800" %}
+{% include figure.html image="/assets/images/projects/romi/romi2.jpg" caption="One of our romis" position="right" width="300" height="800" %}
 
 ## Problem
 

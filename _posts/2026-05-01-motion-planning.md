@@ -11,21 +11,21 @@ For RBE 550 (Motion Planning) at WPI, I completed three major projects exploring
 
 ## Project Reports
 
-### Autonomous Valet Parking
+### Valet: Hybrid A* for Multiple Vehicle Types
 
-A motion planning system for autonomous parallel parking, implementing sampling-based planners with vehicle kinematic constraints.
+Implemented Hybrid A* search for four vehicle models of increasing complexity: holonomic point robot, differential drive, Ackermann car, and car with trailer. Includes collision detection optimizations and Reeds-Shepp path connections.
 
 {% include button.html text="Download Report (PDF)" link="/assets/documents/valet.pdf" %}
 
-### Wildfire Evacuation Planning
+### Wildfire: Discrete vs Sampling-Based Planning
 
-Multi-agent path planning for emergency evacuation scenarios, balancing computational efficiency with solution quality under time pressure.
+A competitive simulation between two agents: a grid-based "Wumpus" using A* to ignite obstacles, and a firetruck using a PRM with Reeds-Shepp local connections to pursue and extinguish fires.
 
 {% include button.html text="Download Report (PDF)" link="/assets/documents/wildfire.pdf" %}
 
-### Transmission Line Inspection
+### Transmission: BiRRT for Disassembly Planning
 
-Motion planning for UAV-based power line inspection, dealing with obstacle avoidance and coverage path planning.
+Used Bidirectional RRT to plan a collision-free removal path for the mainshaft of an SM-465 manual transmission, navigating around the countershaft and enclosure geometry.
 
 {% include button.html text="Download Report (PDF)" link="/assets/documents/transmission.pdf" %}
 
