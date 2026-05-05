@@ -1,200 +1,158 @@
 ---
-layout: portfolio
+layout: page
+title: Projects
 ---
 
+<style>
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
 
-<section id="portfolio" class="portfolio">
-  <div class="container">
-    <div class="row text-center mt-5">
-      <h1 class="display-3 fw-bold text-capitalize">Latest work</h1>
-      <div class="heading-line"></div>
-      <p class="lead">
-        Take a look at some of the projects I've worked on.
-      </p>
-    </div>
-    <!-- FILTER BUTTONS 
-    <div class="row mt-5 mb-4 g-3 text-center">
-      <div class="col-md-12">
-        <button class="btn btn-outline-primary" type="button">All</button>
-        <button class="btn btn-outline-primary" type="button">websites</button>
-        <button class="btn btn-outline-primary" type="button">design</button>
-        <button class="btn btn-outline-primary" type="button">mockup</button>
+  .project-card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    background: #fff;
+  }
+
+  .project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  }
+
+  .project-card a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .project-card .image-container {
+    aspect-ratio: 4/3;
+    overflow: hidden;
+    background: #f0f0f0;
+  }
+
+  .project-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .project-card .card-body {
+    padding: 1rem;
+  }
+
+  .project-card h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.1rem;
+  }
+
+  .project-card .tag {
+    font-size: 0.85rem;
+    color: #666;
+    margin: 0;
+  }
+</style>
+
+<div class="project-grid">
+
+  <div class="project-card">
+    <a href="/robotics/2026/05/01/motion-planning/">
+      <div class="image-container">
+        <img src="/assets/images/550_thumbnail.png" alt="Motion planning visualization">
       </div>
-    </div> -->
-
-    <!-- START THE PORTFOLIO ITEMS  -->
-    <div class="row">
-      <div class="col-lg-4 col-md-6">
-        <a href="/robotics/2025/05/01/formula-electric/">
-          <div class="portfolio-box shadow">
-            <img src="/assets/images/formula_car.jpg" alt="WPI Formula Electric car" title="Formula Electric 2025"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>WPI Formula Electric 2025</h4>
-                <p>Embedded Systems</p>
-              </div>
-            </div>
-          </div>
-        </a>
+      <div class="card-body">
+        <h3>RBE 550 Motion Planning</h3>
+        <p class="tag">Motion Planning</p>
       </div>
-
-      <div class="col-lg-4 col-md-6">
-        <a href="/robotics/2023/12/03/robot-arm/">
-          <div class="portfolio-box shadow">
-            <img src="/assets/images/501_physical.jpg" alt="3-DOF Robot Arm" title="Robot Arm Project"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>3-DOF Robot Arm Design</h4>
-                <p>Robotics</p>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <a href="https://ldjennings.github.io/CS539FinalProject">
-          <div class="portfolio-box shadow">
-            <img src="https://i.ibb.co/qN89C41/5-rain.png" alt="portfolio 1 image" title="portfolio 1 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>Single image deraining: Pixel Percipitation</h4>
-                <p>Computer Science</p>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <a href="https://ldjennings.github.io/robotics/2022/12/13/maze-robot/">
-          <div class="portfolio-box shadow">
-            <img src="/assets/images/romi1.jpg" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>Maze Solving ROMI Robots</h4>
-                <p>Robotics</p>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <a href="https://ldjennings.github.io/robotics/2022/12/16/reinforcement-learning/">
-          <div class="portfolio-box shadow">
-            <img src="/assets/images/4341Proj.png" alt="portfolio 3 image" title="portfolio 3 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>ROS Reinforcement Learning</h4>
-                <p>Computer Science</p>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <a href="https://ldjennings.github.io/robotics/2023/05/02/scara-ros/">
-          <div class="portfolio-box shadow">
-            <img src="/assets/images/rbe500gaz.png" alt="portfolio 4 image" title="portfolio 4 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>Controlled ROS SCARA Arm</h4>
-                <p>Robotics</p>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-      
-      <div class="col-lg-4 col-md-6">
-        <a href="https://ldjennings.github.io/robotics/2023/12/13/UAV-sim/">
-          <div class="portfolio-box shadow">
-            <img src="/assets/images/quadrotor_problem.png" alt="portfolio 4 image" title="portfolio 4 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>Quadrotor Controls Simulation</h4>
-                <p>Robotics</p>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <a href="https://ldjennings.github.io/robotics/2023/02/03/collabfab/">
-          <div class="portfolio-box shadow">
-            <img src="/assets/images/funmat.png" alt="portfolio 5 image" title="portfolio 5 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>FUNMAT PRO Refurbishment</h4>
-                <p>Miscellaneous</p>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <!-- <div class="col-lg-4 col-md-6">
-        <div class="portfolio-box shadow">
-          <img src="images/portfolio/portfolio-6.jpg" alt="portfolio 6 image" title="portfolio 6 picture"
-            class="img-fluid">
-          <div class="portfolio-info">
-            <div class="caption">
-              <h4>project name goes here 6</h4>
-              <p>category project</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <div class="portfolio-box shadow">
-          <img src="images/portfolio/portfolio-7.jpg" alt="portfolio 7 image" title="portfolio 7 picture"
-            class="img-fluid">
-          <div class="portfolio-info">
-            <div class="caption">
-              <h4>project name goes here 7</h4>
-              <p>category project</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <div class="portfolio-box shadow">
-          <img src="images/portfolio/portfolio-8.jpg" alt="portfolio 8 image" title="portfolio 8 picture"
-            class="img-fluid">
-          <div class="portfolio-info">
-            <div class="caption">
-              <h4>project name goes here 8</h4>
-              <p>category project</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <div class="portfolio-box shadow">
-          <img src="images/portfolio/portfolio-9.jpg" alt="portfolio 9 image" title="portfolio 9 picture"
-            class="img-fluid">
-          <div class="portfolio-info">
-            <div class="caption">
-              <h4>project name goes here 9</h4>
-              <p>category project</p>
-            </div>
-          </div>
-        </div>
-      </div> -->
-
-    </div>
+    </a>
   </div>
-</section>
+
+  <div class="project-card">
+    <a href="/work/2025/12/15/symbotic/">
+      <div class="image-container" style="background: #1a1a2e; display: flex; align-items: center; justify-content: center;">
+        <img src="/assets/images/SYM.svg" alt="Symbotic logo" style="width: 60%; height: auto; object-fit: contain;">
+      </div>
+      <div class="card-body">
+        <h3>Symbotic Co-op</h3>
+        <p class="tag">Hardware Test Engineering</p>
+      </div>
+    </a>
+  </div>
+
+  <div class="project-card">
+    <a href="/robotics/2025/05/01/formula-electric/">
+      <div class="image-container">
+        <img src="/assets/images/formula_car.jpg" alt="WPI Formula Electric car">
+      </div>
+      <div class="card-body">
+        <h3>WPI Formula Electric 2025</h3>
+        <p class="tag">Embedded Systems</p>
+      </div>
+    </a>
+  </div>
+
+  <div class="project-card">
+    <a href="/robotics/2023/12/03/robot-arm/">
+      <div class="image-container">
+        <img src="/assets/images/501_physical.jpg" alt="3-DOF Robot Arm">
+      </div>
+      <div class="card-body">
+        <h3>3-DOF Robot Arm Design</h3>
+        <p class="tag">Robotics</p>
+      </div>
+    </a>
+  </div>
+
+  <div class="project-card">
+    <a href="/robotics/2023/12/13/UAV-sim/">
+      <div class="image-container">
+        <img src="/assets/images/quadrotor_problem.png" alt="Quadrotor simulation">
+      </div>
+      <div class="card-body">
+        <h3>Quadrotor Controls Simulation</h3>
+        <p class="tag">Robotics</p>
+      </div>
+    </a>
+  </div>
+
+  <div class="project-card">
+    <a href="https://ldjennings.github.io/CS539FinalProject">
+      <div class="image-container">
+        <img src="https://i.ibb.co/qN89C41/5-rain.png" alt="Image deraining">
+      </div>
+      <div class="card-body">
+        <h3>Single Image Deraining</h3>
+        <p class="tag">Computer Vision</p>
+      </div>
+    </a>
+  </div>
+
+  <div class="project-card">
+    <a href="/robotics/2022/12/13/maze-robot/">
+      <div class="image-container">
+        <img src="/assets/images/romi1.jpg" alt="ROMI robot">
+      </div>
+      <div class="card-body">
+        <h3>Maze Solving ROMI Robots</h3>
+        <p class="tag">Robotics</p>
+      </div>
+    </a>
+  </div>
+
+  <div class="project-card">
+    <a href="/robotics/2022/12/16/reinforcement-learning/">
+      <div class="image-container">
+        <img src="/assets/images/4341Proj.png" alt="ROS reinforcement learning">
+      </div>
+      <div class="card-body">
+        <h3>ROS Reinforcement Learning</h3>
+        <p class="tag">Machine Learning</p>
+      </div>
+    </a>
+  </div>
+
+</div>
